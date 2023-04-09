@@ -1,11 +1,17 @@
 body {
-  background: #100f0f;
-  color: #f3f3f3;
-}
-
-body {
   font-family: "Montserrat", sans-serif;
 
+  background-color: #100f0f;
+  background-image: linear-gradient(
+    228.52deg,
+    rgba(111, 102, 102, 0.9) 4.71%,
+    rgba(16, 15, 15, 0.9) 39.77%,
+    rgba(16, 15, 15, 0.9) 44.21%
+  );
+
+  color: #f3f3f3;
+
+  /* background-size: 1100px 400px; */
   /* font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif; */
   /* color: var(--general-font-color);
@@ -75,6 +81,9 @@ img {
 
 /* ======================= Header ========================== */
 
+.header-section {
+}
+
 .header-wrapper {
   display: flex;
   align-items: center;
@@ -114,6 +123,11 @@ img {
 /* ======================= /Header ========================== */
 
 /* ======================= Hero ========================== */
+
+main {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
 
 .hero-section {
   padding-top: 72px;
@@ -215,17 +229,15 @@ img {
 
 /* ======================= Main ========================== */
 
-/* ======================= /Main ========================== */
-
 .first-container {
   display: flex;
 }
-
 
 .second-container {
   display: flex;
 }
 
+/* ======================= /Main ========================== */
 
 /* ======================= Footer ========================== */
 
