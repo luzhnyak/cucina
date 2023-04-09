@@ -1,0 +1,244 @@
+body {
+  font-family: "Montserrat", sans-serif;
+
+  background-color: #100f0f;
+  background-image: linear-gradient(
+    228.52deg,
+    rgba(111, 102, 102, 0.9) 4.71%,
+    rgba(16, 15, 15, 0.9) 39.77%,
+    rgba(16, 15, 15, 0.9) 44.21%
+  );
+
+  color: #f3f3f3;
+
+  /* background-size: 1100px 400px; */
+  /* font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif; */
+  /* color: var(--general-font-color);
+  background-color: var(--white-color); */
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  color: currentColor;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+/* ======================= Utilites ========================== */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* ======================= /Utilites ========================== */
+
+/* ======================= Header ========================== */
+
+.header-section {
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 20px;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: flex;
+  gap: 16px;
+
+  align-items: center;
+  margin-right: 228px;
+}
+
+.menu {
+  display: flex;
+  gap: 52px;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.header-btn {
+  padding: 10px 33px;
+  border: 1px solid #f3f3f3;
+  border-radius: 16px;
+  color: currentColor;
+  background-color: transparent;
+}
+
+/* ======================= /Header ========================== */
+
+/* ======================= Hero ========================== */
+
+main {
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.hero-section {
+  padding-top: 72px;
+  padding-bottom: 71px;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.hero-left-side {
+  margin-right: 160px;
+}
+
+.hero-title {
+  padding-left: 12px;
+  margin-bottom: 24px;
+  border-left: 1px solid #f3f3f3;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.22;
+}
+
+.hero-desc {
+  margin-bottom: 48px;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.22;
+}
+
+.hero-desc span {
+  font-weight: 900;
+  color: rgba(188, 26, 26, 0.71);
+}
+
+.hero-btn {
+  margin-bottom: 48px;
+  padding: 20px 84px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.23;
+  color: currentColor;
+  border: 0;
+  background: rgba(188, 26, 26, 0.2);
+  border-radius: 16px;
+}
+
+.hero-list {
+  display: flex;
+}
+
+.hero-list {
+  display: flex;
+}
+
+.hero-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  padding-right: 19px;
+  padding-left: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.hero-item span {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.hero-item:first-child {
+  width: 230px;
+  border-right: 1px solid #f3f3f3;
+}
+
+.hero-img {
+  margin-right: 47px;
+}
+
+.social-item {
+  margin-bottom: 32px;
+}
+
+.social-link {
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+/* ======================= /Hero ========================== */
+
+/* ======================= Main ========================== */
+
+.first-container {
+  display: flex;
+}
+
+.second-container {
+  display: flex;
+}
+
+/* ======================= /Main ========================== */
+
+/* ======================= Footer ========================== */
+
+/* ======================= /Footer ========================== */
