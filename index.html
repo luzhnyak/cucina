@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cucina</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
@@ -16,65 +23,88 @@
   <body>
     <!-- HEADER -->
     <header>
-      <nav>
-        <a href="">
-          <svg class="social-icon" width="32" height="32">
-            <use href="./image/sprite.svg#icon-logo"></use>
-          </svg>
-          CUCINA
-        </a>
-        <ul class="menu list">
-          <li class="menu-item"><a class="menu-link link" href="">Home</a></li>
-          <li class="menu-item"><a class="menu-link link" href="">Store</a></li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Recipes</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Gallery</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="btn" type="button">Contact us</button>
+      <div class="header-wrapper container">
+        <nav class="page-nav">
+          <a class="logo-link link" href="">
+            <svg class="social-icon" width="32" height="32">
+              <use href="./images/sprite.svg#icon-logo"></use>
+            </svg>
+            CUCINA
+          </a>
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="">Home</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Store</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Recipes</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header-btn btn" type="button">Contact us</button>
+      </div>
     </header>
 
     <main>
       <!-- HERO -->
       <section class="hero-section">
-        <div class="hero-wrapper">
+        <div class="hero-wrapper container">
           <div class="hero-left-side">
             <h1 class="hero-title">CUCINA DI CATHERINA</h1>
-            <p class="hero-desc">We know, you will love our product</p>
-            <button class="btn" type="button">Buy now</button>
+            <p class="hero-desc">
+              We know,<br />
+              you will <span>love</span> our product
+            </p>
+            <button class="hero-btn" type="button">Buy now</button>
+            <ul class="hero-list list">
+              <li class="hero-item"><span>14</span>different tastes</li>
+              <li class="hero-item">
+                <span>31</span>factories around<br />
+                the world
+              </li>
+            </ul>
           </div>
-          <ul class="hero-list">
-            <li class="hero-item"><span>14</span>different tastes</li>
-            <li class="hero-item"><span>31</span>factories around the world</li>
-          </ul>
-          <img src="./image/hero.png" alt="Cucina" />
-          <ul class="social-list">
-            <li class="social-iem">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./image/sprite.svg#icon-tumblr"></use>
-              </svg>
+
+          <img class="hero-img" src="./images/hero.png" alt="Cucina" />
+          <ul class="social-list list">
+            <li class="social-item">
+              <a class="social-link link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-tumblr"></use>
+                </svg>
+              </a>
             </li>
-            <li class="social-iem">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./image/sprite.svg#icon-instagram"></use>
-              </svg>
+            <li class="social-item">
+              <a class="social-link link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="social-iem">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./image/sprite.svg#icon-youtube"></use>
-              </svg>
+            <li class="social-item">
+              <a class="social-link link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-youtube"></use>
+                </svg>
+              </a>
             </li>
-            <li class="social-iem">
-              <svg class="social-icon" width="24" height="24">
-                <use href="./image/sprite.svg#icon-twitter"></use>
-              </svg>
+            <li class="social-item">
+              <a class="social-link link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
       </section>
+       <!-- MAIN -->
+       
       <section>
         <div>
          <ul class="first-container">
@@ -115,6 +145,8 @@
      </section>
      
     </main>
+
+    <!-- FOOTER -->
     <footer>
       <a href="./index.html">
         <img src="./images/logo.svg" alt="pomodoro" />CUCINA</a
