@@ -1,70 +1,93 @@
-body {
-}
-
-body {
-  /* font-family: 'Roboto', sans-serif; */
-  /* color: var(--general-font-color);
-  background-color: var(--white-color); */
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-button {
-  cursor: pointer;
-}
-
-img {
-  display: block;
-}
-
-/* ======================= Utilites ========================== */
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-
-/* ======================= /Utilites ========================== */
-
-/* ======================= Hero ========================== */
-
-.hero-wrapper {
-  display: flex;
-}
-
-/* ======================= /Hero ========================== */
-
-/* ======================= Main ========================== */
-
 /* ======================= /Main ========================== */
+.section-size {
+  width: 1280px;
+  height: 720px;
+}
 
 .first-container {
-  display: flex;
+ 
 }
 
+.first-list-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first-list-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.description {
+  width: 406px;
+}
+
+.heading-description {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.22;
+  color: #F3F3F3;
+  margin-bottom: 16px;
+}
+
+.paragraph-description {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+color: #F3F3F3;
+margin-bottom: 20px;
+}
+
+.first-botton {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 57px;
+gap: 10px;
+color: #F3F3F3;
+background: #BC1A1A;
+border-radius: 8px;
+}
+
+.section-two {
+width: 1280px;
+height: 549px;
+}
 
 .second-container {
   display: flex;
+  gap: 100px;
+  justify-content: center
 }
 
+.heading-section-two {
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 1.22;
+color: #F3F3F3;
+text-align: center;
+margin-top: 16px;
+}
 
-/* ======================= Footer ========================== */
-
-/* ======================= /Footer ========================== */
+.third-section {
+  padding-top: 31px;
+  padding-right: 121px;
+  padding-bottom: 47px;
+  padding-left: 121px;
+  width: 1280px;
+  height: 582px;
+}
