@@ -314,8 +314,9 @@ main {
   margin-top: 16px;
 }
 
-.third-section {
-
+.third-section img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ======================= /Main ========================== */
