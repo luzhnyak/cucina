@@ -318,7 +318,10 @@ main {
   margin-top: 16px;
 }
 
-.third-section {
+
+.third-section img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ======================= /Main ========================== */
@@ -343,7 +346,6 @@ footer-container {
   gap: 20px;
   width: 60px;
   height: 136px;
-
   margin-right: 171px;
   margin-bottom: 43px;
 }
@@ -377,11 +379,24 @@ footer-container {
   padding-top: 0;
   padding-bottom: 45px;
 }
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 .address-item .link {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
 .foot-social-list {
   display: flex;
   flex-direction: column;
@@ -389,14 +404,21 @@ footer-container {
   height: 144px;
   margin-bottom: 35px;
 }
+
 .foot-social-item :hover,
 .foot-social-item :focus {
   color: rgba(188, 26, 26, 0.5);
+
+
+.footer-wrapper .social-item {
+  margin-bottom: 16px;
+
 }
 
 .adress-icon {
   fill: currentColor;
 }
+
 .footer-text {
   width: 465px;
   height: 17px;
