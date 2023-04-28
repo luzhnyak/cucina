@@ -327,7 +327,7 @@ main {
 /* ======================= /Main ========================== */
 
 /* ======================= Footer ========================== */
-footer-container {
+.footer-container {
   text-align: center;
 }
 
@@ -408,7 +408,7 @@ footer-container {
 .foot-social-item :hover,
 .foot-social-item :focus {
   color: rgba(188, 26, 26, 0.5);
-
+}
 
 .footer-wrapper .social-item {
   margin-bottom: 16px;
